@@ -1,0 +1,157 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Wurin da ke rike da katin don center alignment */
+.card-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Tsarin katin da za'a yi download nasa */
+.download-card {
+    width: 400px; 
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3); /* An kara darkness na shadow */
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    background-color: white;
+}
+
+/* Sashen Hoto: DARK BROWN */
+.photo-section {
+    background-color: #4E342E; /* Dark Coffee Brown */
+    color: #FFECB3; /* Light Cream/Gold */
+    padding: 25px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.photo-frame {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 4px solid #FFC107; /* Golden Yellow */
+    margin-bottom: 15px;
+}
+
+.groom-photo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.name-tag {
+    font-size: 1.4em;
+    font-weight: 700;
+    margin: 0;
+}
+
+/* Sashen Bayanan Gayyata: LIGHT GOLD/BEIGE */
+.card-content {
+    padding: 30px 20px;
+    background-color: #F3E5AB; /* Light Gold/Beige */
+    text-align: center;
+}
+
+.families, .names-list {
+    color: #4E342E; /* Dark Brown for text */
+    margin-bottom: 5px;
+    font-size: 0.85em;
+}
+
+.names-list {
+    font-size: 0.95em;
+    font-weight: 600;
+}
+
+.cordially {
+    font-size: 0.9em;
+    font-weight: 400;
+    color: #795548;
+    margin-top: 15px;
+}
+
+.event-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.8em;
+    color: #795548; /* Medium Brown */
+    border-bottom: 2px solid #FFC107; /* Golden line */
+    padding-bottom: 5px;
+    margin: 5px 0 20px 0;
+}
+
+.couple-names {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5em;
+    margin: 20px 0;
+    line-height: 1;
+}
+
+.name-style {
+    color: #4E342E; /* Dark Brown */
+    font-weight: 700;
+    display: block; 
+}
+
+.and-style {
+    font-size: 0.4em;
+    color: #A1887F;
+    display: block;
+    margin: 5px 0;
+}
+
+.details p {
+    margin: 3px 0;
+    color: #6D4C41;
+}
+
+.date-time-bold {
+    font-weight: 700;
+    font-size: 1.1em;
+    margin-bottom: 10px !important;
+    color: #4E342E; /* Dark Brown */
+}
+
+.rsvp {
+    margin-top: 20px;
+    border-top: 1px solid #D7CCC8;
+    padding-top: 15px;
+    font-size: 0.9em;
+    color: #795548;
+}
+
+.phone-numbers {
+    font-weight: 600;
+    color: #4E342E; /* Dark Brown */
+}
+
+/* Maballin Download */
+.download-btn {
+    background-color: #FFC107; /* Golden Yellow */
+    color: #4E342E; /* Dark Brown text */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 600;
+    transition: background-color 0.3s;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.download-btn:hover {
+    background-color: #FFEB3B;
+}
